@@ -28,7 +28,7 @@ sup{
 	height: 100%;
 }
 
-.grid{
+.grid, .grid-about{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	gap: 20px;
@@ -36,6 +36,7 @@ sup{
 	align-items: left;
 	height: 100%;
 }
+
 
 .grid-3{
 	grid-template-columns: repeat(3, 1fr);
@@ -134,3 +135,25 @@ margin: 1rem 0;
 .p-5{
 	padding: 4rem;
 }
+
+
+
+/* Hamburger */
+.fa-1x {
+	font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+	cursor: pointer;
+  }
+  .dark-blue-text {
+	color: #0A38F5;
+  }
+  .dark-pink-text {
+	color: #AC003A;
+  }
+  .dark-amber-text {
+	color: #ff6f00;
+  }
+  .dark-teal-text {
+	color: #004d40;
+  }
